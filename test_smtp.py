@@ -44,12 +44,7 @@ msg.set_content(
     """
 )
 
-# send our email message 'msg' to our boss
-svr.sendmail(
-    from_addr='info@greendotgroup.co',
-    to_addrs='david.mcken@codepro.guru',
-    msg="Test body #1",
-)
+svr.send_message(msg)
 
 svr.quit()  # finally, don't forget to close the connection
 logging.info("End")
