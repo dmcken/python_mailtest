@@ -1,0 +1,7 @@
+from=<from address>
+hostname=<SMTP hostname>
+port=587
+security=tls
+username=<SMTP username>
+password=<SMTP password>
+authmethod=plain
